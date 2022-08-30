@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ - RestApiClient.Standard
+ -
+ - This file was automatically generated for Earthport by APIMATIC v3.0 ( https://www.apimatic.io ).
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>RestApiClientStandard</AssemblyName>
+    <Version>7.1.3.0</Version>
+    <Authors>Visa Payments Limited</Authors>
+    <Owners>Visa Payments Limited</Owners>
+    <Product>RestApiClient.Standard</Product>
+    <Copyright>Copyright ©  2019</Copyright>
+    <AssemblyVersion>7.1.3.0</AssemblyVersion>
+    <FileVersion>7.1.3.0</FileVersion>
+    <Description>.NET client library for the Visa Payments Limited API</Description>
+    <LangVersion>7.3</LangVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.5.0" />
+    <PackageReference Include="JsonSubTypes" Version="1.6.0" />
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+        <_Parameter1>RestApiClient.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+</Project>
